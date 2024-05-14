@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Order Site </title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        window.addEventListener('scroll', function () {
+            var navbar = document.querySelector('.stickyheader');
+            if (window.scrollY > 0) {
+                navbar.style.display = 'block';
+            } else {
+                navbar.style.display = 'none';
+            }
+        });
+
+    </script>
+</head>
+
+<body>
+    <section class="stickyheader">
+        <nav class="navbar stickydesign ">
+            <div class="leftnav">
+                <h3 class="testboreder"> <span class="test">TEST</span> .It</h3>
+            </div>
+
+            <div class="rightnav">
+                <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+                <ul class="nav-links">
+                    <li style="color: #e61d27;"><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Chef</a></li>
+                    <li><a>Menu</a></li>
+                    <li><a>Presention</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <header class="main">
+        <div class="phone">
+            <div>
+                <p> <span class="phonemailcolor"> Phone no:</span> +00 1234 567 or <span class="phonemailcolor">email
+                        us:
+                    </span> emailsample@email.com</p>
+            </div>
+
+            <div class="timig">
+                <p>Mon - Fri / 9:00-21:00, Sat - Sun / 10:00-20:00</p>
+            </div>
+        </div>
+
+        <nav class="navbar">
+            <div class="leftnav">
+                <h3 class="testboreder"> <span class="test">TEST</span> .It</h3>
+            </div>
+
+            <div class="rightnav">
+                <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+                <ul class="nav-links">
+                    <li style="color: #e61d27;"><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Chef</a></li>
+                    <li><a>Menu</a></li>
+                    <li><a>Presention</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+
+
+
+        <div class="hero">
+            <h5 class="heroheading"><span class="headborder">TEST.It Resturant</span></h5>
+            <h1 class="heroheading"> Best Qulity All Time</h1>
+            <div class="text-with-lines">
+                <hr class="line left">
+                <span style="font-size: 24px; color: burlywood;">food</span>
+                <hr class="line right">
+            </div>
+
+        </div>
+    </header>
+
+    <section class="Section2">
+        <div class="contactform">
+            <div class="inputtypes">
+                <h2 style="color: white; padding-top: 30px;">Book Your Table</h2>
+
+                <input type="text" id="name" name="name" placeholder="Name">
+
+                <input type="email" id="email" name="email" placeholder="Email">
+
+                <input type="tel" id="phone" name="phone" placeholder="Phone">
+
+                <input type="Date" id="checkin" name="checkin" placeholder="Check in">
+
+                <input type="time" id="time" name="time" placeholder="Time">
+
+                <select id="guest" name="guest">
+                    <option value="" disabled selected>Guest</option>
+                    <option value="volvo">01</option>
+                    <option value="saab">02</option>
+                    <option value="mercedes">03</option>
+                    <option value="audi">04</option>
+                </select>
+                <input class="send" type="submit">
+
+
+            </div>
+        </div>
+
+
+        <div>
+            <div class="aboutinside">
+                <div class="leftabout">
+                    <p style="font-size: 30px; font-family: Sofia , cursive; line-height: 0px;">About Us</p>
+                    <h2>Welcom to</h2>
+                    <h2 style="padding: 15px 0px 30px;">Taste.it</h2>
+                    <p>On her way she met a copy. The copy warned the Little Blind Text, that where it came from it
+                        would
+                        have been rewritten a thousand times and everything that was left from its origin would be the
+                        word
+                        "and" and the Little Blind Text should turn around and return to its own, safe country.A small
+                        river named Duden flows by their place and supplies it with the necessary regelialia. It is a
+                        paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section3">
+
+        <h5>NOW BOOKING</h5>
+        <h2>Private Dinners & Happy Hours</h2>
+
+    </section>
+
+    <section class="section4">
+        <div class="specilaties">
+            <p style="font-size: 30px; font-family: Sofia , cursive; line-height: 30px;">Specialties</p>
+            <h2>Our Menu</h2>
+        </div>
+    </section>
+
+    <section class="section5">
+
+        <div class="breakfast border1">
+            <h2 style="text-align: center; padding-top: 30px;">Brekafast</h2>
+
+            <div class="firstitem">
+                <div>
+                    <img class="fooditem" src="/Assets/beef.jpg">
+                </div>
+
+                <div>
+                    <h4 style="padding-bottom: 10px;">Beef Roast<br> Source</h4>
+                    <p>Meat, Rice,Tomatoe Potatoes</p>
+                </div>
+
+                <div>
+                    <h3>$29</h3>
+                </div>
+
+            </div>
+
+            <div class="firstitem">
+                <div>
+                    <img class="fooditem" src="/Assets/beef.jpg">
+                </div>
+
+                <div>
+                    <h4 style="padding-bottom: 10px;">Beef Roast<br> Source</h4>
+                    <p>Meat, Rice,Tomatoe Potatoes</p>
+                </div>
+
+                <div>
+                    <h3>$29</h3>
+                </div>
+
+            </div>
+
+            <div class="firstitem">
+                <div>
+                    <img class="fooditem" src="/Assets/beef.jpg">
+                </div>
+
+                <div>
+                    <h4 style="padding-bottom: 10px;">Beef Roast<br> Source</h4>
+                    <p>Meat, Rice,Tomatoe Potatoes</p>
+                </div>
+
+                <div>
+                    <h3>$29</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="lunch border1">
+            <h2 style="text-align: center; padding-top: 30px;">Lunch</h2>
+
+            <div class="firstitem">
+                <div>
+                    <img class="fooditem" src="/Assets/beef.jpg">
+                </div>
+
+                <div>
+                    <h4 style="padding-bottom: 10px;">Beef Roast<br> Source</h4>
+                    <p>Meat, Rice,Tomatoe Potatoes</p>
+                </div>
+
+                <div>
+                    <h3>$29</h3>
+                </div>
+
+            </div>
+
+            <div class="firstitem">
+                <div>
+                    <img class="fooditem" src="/Assets/beef.jpg">
+                </div>
+
+                <div>
+                    <h4 style="padding-bottom: 10px;">Beef Roast<br> Source</h4>
+                    <p>Meat, Rice,Tomatoe Potatoes</p>
+                </div>
+
+                <div>
+                    <h3>$29</h3>
+                </div>
+
+            </div>
+
+            <div class="firstitem">
+                <div>
+                    <img class="fooditem" src="/Assets/beef.jpg">
+                </div>
+
+                <div>
+                    <h4 style="padding-bottom: 10px;">Beef Roast<br> Source</h4>
+                    <p>Meat, Rice,Tomatoe Potatoes</p>
+                </div>
+
+                <div>
+                    <h3>$29</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="dinner border1">
+            <h2 style="text-align: center; padding-top: 30px;">Dinner</h2>
+
+            <div class="firstitem">
+                <div>
+                    <img class="fooditem" src="/Assets/beef.jpg" class="fooditem">
+                </div>
+
+                <div>
+                    <h4 style="padding-bottom: 10px;">Beef Roast<br> Source</h4>
+                    <p>Meat, Rice,Tomatoe Potatoes</p>
+                </div>
+
+                <div>
+                    <h3>$29</h3>
+                </div>
+
+            </div>
+
+            <div class="firstitem">
+                <div>
+                    <img class="fooditem" src="/Assets/beef.jpg">
+                </div>
+
+                <div>
+                    <h4 style="padding-bottom: 10px;">Beef Roast<br> Source</h4>
+                    <p>Meat, Rice,Tomatoe Potatoes</p>
+                </div>
+
+                <div>
+                    <h3>$29</h3>
+                </div>
+
+            </div>
+
+            <div class="firstitem">
+                <div>
+                    <img class="fooditem" src="/Assets/beef.jpg">
+                </div>
+
+                <div>
+                    <h4 style="padding-bottom: 10px;">Beef Roast<br> Source</h4>
+                    <p>Meat, Rice,Tomatoe Potatoes</p>
+                </div>
+
+                <div>
+                    <h3>$29</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+    <section class="section5">
+
+        <div class="breakfast border1">
+            <h2 style="text-align: center; padding-top: 30px;">Brekafast</h2>
+
+            <div class="firstitem">
+                <div>
+                    <img class="fooditem" src="/Assets/beef.jpg">
+                </div>
+
+                <div>
+                    <h4 style="padding-bottom: 10px;">Beef Roast<br> Source</h4>
+                    <p>Meat, Rice,Tomatoe Potatoes</p>
+                </div>
+
+                <div>
+                    <h3>$29</h3>
+                </div>
+
+            </div>
+
+            <div class="firstitem">
+                <div>
+                    <img class="fooditem" src="/Assets/beef.jpg">
+                </div>
+
+                <div>
+                    <h4 style="padding-bottom: 10px;">Beef Roast<br> Source</h4>
+                    <p>Meat, Rice,Tomatoe Potatoes</p>
+                </div>
+
+                <div>
+                    <h3>$29</h3>
+                </div>
+
+            </div>
+
+            <div class="firstitem">
+                <div>
+                    <img class="fooditem" src="/Assets/beef.jpg">
+                </div>
+
+                <div>
+                    <h4 style="padding-bottom: 10px;">Beef Roast<br> Source</h4>
+                    <p>Meat, Rice,Tomatoe Potatoes</p>
+                </div>
+
+                <div>
+                    <h3>$29</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="lunch border1">
+            <h2 style="text-align: center; padding-top: 30px;">Lunch</h2>
+
+            <div class="firstitem">
+                <div>
+                    <img class="fooditem" src="/Assets/beef.jpg">
+                </div>
+
+                <div>
+                    <h4 style="padding-bottom: 10px;">Beef Roast<br> Source</h4>
+                    <p>Meat, Rice,Tomatoe Potatoes</p>
+                </div>
+
+                <div>
+                    <h3>$29</h3>
+                </div>
+
+            </div>
+
+            <div class="firstitem">
+                <div>
+                    <img class="fooditem" src="/Assets/beef.jpg">
+                </div>
+
+                <div>
+                    <h4 style="padding-bottom: 10px;">Beef Roast<br> Source</h4>
+                    <p>Meat, Rice,Tomatoe Potatoes</p>
+                </div>
+
+                <div>
+                    <h3>$29</h3>
+                </div>
+
+            </div>
+
+            <div class="firstitem">
+                <div>
+                    <img class="fooditem" src="/Assets/beef.jpg">
+                </div>
+
+                <div>
+                    <h4 style="padding-bottom: 10px;">Beef Roast<br> Source</h4>
+                    <p>Meat, Rice,Tomatoe Potatoes</p>
+                </div>
+
+                <div>
+                    <h3>$29</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="dinner border1">
+            <h2 style="text-align: center; padding-top: 30px;">Dinner</h2>
+
+            <div class="firstitem">
+                <div>
+                    <img class="fooditem" src="/Assets/beef.jpg" class="fooditem">
+                </div>
+
+                <div>
+                    <h4 style="padding-bottom: 10px;">Beef Roast<br> Source</h4>
+                    <p>Meat, Rice,Tomatoe Potatoes</p>
+                </div>
+
+                <div>
+                    <h3>$29</h3>
+                </div>
+
+            </div>
+
+            <div class="firstitem">
+                <div>
+                    <img class="fooditem" src="/Assets/beef.jpg">
+                </div>
+
+                <div>
+                    <h4 style="padding-bottom: 10px;">Beef Roast<br> Source</h4>
+                    <p>Meat, Rice,Tomatoe Potatoes</p>
+                </div>
+
+                <div>
+                    <h3>$29</h3>
+                </div>
+
+            </div>
+
+            <div class="firstitem">
+                <div>
+                    <img class="fooditem" src="/Assets/beef.jpg">
+                </div>
+
+                <div>
+                    <h4 style="padding-bottom: 10px;">Beef Roast<br> Source</h4>
+                    <p>Meat, Rice,Tomatoe Potatoes</p>
+                </div>
+
+                <div>
+                    <h3>$29</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+    <section class=" section6 section4">
+        <div class="specilaties">
+            <p style="font-size: 30px; font-family: Sofia , cursive; line-height: 30px;">Chef</p>
+            <h2>Our Master Chef</h2>
+        </div>
+    </section>
+
+    <section class="section7">
+
+        <div class="chef">
+            <img class="chefimg" src="/Assets/chefimg.jpg">
+            <div class="chefdetail">
+                <h3>John Gustavo</h3>
+                <h5>CEO, Co Founder</h5>
+                <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+            </div>
+
+
+        </div>
+
+        <div class="chef">
+            <img class="chefimg" src="/Assets/checf .jpg">
+            <div class="chefdetail">
+                <h3>John Gustavo</h3>
+                <h5>CEO, Co Founder</h5>
+                <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+            </div>
+        </div>
+
+        <div class="chef">
+            <img class="chefimg" src="/Assets/chefimg.jpg">
+            <div class="chefdetail">
+                <h3>John Gustavo</h3>
+                <h5>CEO, Co Founder</h5>
+                <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+            </div>
+        </div>
+
+        <div class="chef">
+            <img class="chefimg" src="/Assets/checf .jpg">
+            <div class="chefdetail">
+                <h3>John Gustavo</h3>
+                <h5>CEO, Co Founder</h5>
+                <p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section8">
+        <div class="perfect">
+            <div class="perfect">
+                <img class="perfectimg" src="/Assets/chefimg.jpg">
+
+            </div>
+
+            <div class="perfect">
+                <img class="perfectimg" src="/Assets/beef.jpg">
+
+            </div>
+        </div>
+
+
+        <div class="perfectingrediant">
+
+            <div>
+                <p style="font-size: 30px; font-family: Sofia , cursive; line-height: 4px;">This is our Secrets</p>
+                <h2 style="font-size: 42px; padding-bottom: 30px;">Perfect Ingredients</h2>
+                <p style="line-height: 30px;">Far far away, behind the word mountains, far from the countries Vokalia
+                    and Consonantia, there live
+                    the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large
+                    language ocean.</p>
+                <button class="learnmore">Learn More</button>
+            </div>
+
+
+
+
+        </div>
+
+    </section>
+
+
+    <section class=" section6 section4">
+        <div class="specilaties">
+            <p style="font-size: 30px; font-family: Sofia , cursive; line-height: 30px;">Testimonials</p>
+            <h2 style="font-size: 35px;">Here From Our Happy Customer</h2>
+        </div>
+    </section>
+
+
+    <div class="testimonilas">
+
+        <div class="container">
+            <img src="/Assets/chefimg.jpg" alt="Avatar" style="width:90px"><br>
+            <p><span>Chris Fox.</span></p>
+            <p>CEO at Mighty Schools.</p>
+            <p>John Doe saved us from a web disaster. John Doe saved us from a web disaster.John Doe saved us from a web
+                disaster.</p>
+        </div>
+
+        <div class="container">
+            <img src="/Assets/checf .jpg" alt="Avatar" style="width:90px"><br>
+            <p><span>Chris Fox.</span></p>
+            <p>CEO at Mighty Schools.</p>
+            <p>John Doe saved us from a web disaster. John Doe saved us from a web disaster.John Doe saved us from a web
+                disaster.</p>
+        </div>
+
+        <div class="container">
+            <img src="/Assets/chefimg.jpg" alt="Avatar" style="width:90px"><br>
+            <p><span>Chris Fox.</span></p>
+            <p>CEO at Mighty Schools.</p>
+            <p>John Doe saved us from a web disaster. John Doe saved us from a web disaster.John Doe saved us from a web
+                disaster.</p>
+        </div>
+    </div>
+
+
+
+
+
+    <section class="section9">
+        <div class=" section6 section4">
+            <div class="specilaties">
+                <p style="font-size: 30px; font-family: Sofia , cursive; line-height: 30px;">Blogs</p>
+                <h2>Recent Blog</h2>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="recent-blogs">
+        <div class="blog-post">
+            <img src="/Assets/beef.jpg" alt="Blog Post Image">
+            <div class="blog-details">
+                <h3>Blog Post Title Blog Post Title 2 Blog Post Title 2</h3>
+                <p class="date">January 1, 2024</p>
+                <p class="excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor
+                    incididunt ut labore et dolore magna aliqua.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+        </div>
+        <div class="blog-post">
+            <img src="/Assets/booking.jpg" alt="Blog Post Image">
+            <div class="blog-details">
+                <h3>Blog Post Title Blog Post Title 2 Blog Post Title 2</h3>
+                <p class="date">December 15, 2023</p>
+                <p class="excerpt">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                    ea commodo consequat.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+        </div>
+        <div class="blog-post">
+            <img src="/Assets/checf .jpg" alt="Blog Post Image">
+            <div class="blog-details">
+                <h3>Blog Post Title Blog Post Title 2 Blog Post Title 2</h3>
+                <p class="date">December 15, 2023</p>
+                <p class="excerpt">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                    ea commodo consequat.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+        </div>
+        <div class="blog-post">
+            <img src="/Assets/beef.jpg" alt="Blog Post Image">
+            <div class="blog-details">
+                <h3>Blog Post Title Blog Post Title 2 Blog Post Title 2</h3>
+                <p class="date">December 15, 2023</p>
+                <p class="excerpt">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+                    ea commodo consequat.</p>
+                <a href="#" class="read-more">Read More</a>
+            </div>
+        </div>
+        <!-- Add more blog posts as needed -->
+    </section>
+
+
+
+    <section class="section10">
+        <h2 style="font-size: 3vw;">We Make Delicious & Nutritious Food</h2>
+        <button class="booktable">Book A Table Now</button>
+    </section>
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="footer1">
+            <h2>TASTE.IT</h2>
+            <p>Far far away, behind the word mountains,<br> far from the countries Vokalia and <br>Consonantia, there
+                live the blind texts.Separated they live in Bookmarksgrove</p>
+            <div class="socialicon">
+                <img class="socialimg" src="Assets/facebook.png">
+                <img class="socialimg" src="Assets/whatsapp.png">
+                <img class="socialimg" src="Assets/youtube.png">
+                <img class="socialimg" src="Assets/instagram.png">
+            </div>
+        </div>
+
+
+        <div class="footer2">
+            <h2 style="padding-bottom: 60px;">OPEN HOURS</h2>
+            <div class="schedule">
+                <div class="day">Monday</div>
+                <div class="time">9:00 - 24:00</div>
+            </div>
+            <div class="schedule">
+                <div class="day">Tuesday</div>
+                <div class="time">9:00 - 24:00</div>
+            </div>
+            <div class="schedule">
+                <div class="day">Wednesday</div>
+                <div class="time">
+                    <pre>9:00 - 24:00</pre>
+                </div>
+            </div>
+            <div class="schedule">
+                <div class="day">Thursday</div>
+                <div class="time">9:00 - 24:00</div>
+            </div>
+            <div class="schedule">
+                <div class="day">Friday</div>
+                <div class="time">9:00 - 02:00</div>
+            </div>
+            <div class="schedule">
+                <div class="day">Saturday</div>
+                <div class="time">9:00 - 02:00</div>
+            </div>
+            <div class="schedule">
+                <div class="day">Sunday</div>
+                <div class="time">Closed</div>
+            </div>
+
+        </div>
+
+        <div class="footer3">
+            <h2 style="padding-bottom: 60px;">Instagram</h2>
+            <div class="footer33">
+                <img class="footer3img" src="Assets/heromain.jpg">
+                <img class="footer3img" src="Assets/beef.jpg">
+                <img class="footer3img" src="Assets/heromain.jpg">
+                <img class="footer3img" src="Assets/beef.jpg">
+                <img class="footer3img" src="Assets/heromain.jpg">
+                <img class="footer3img" src="Assets/beef.jpg">
+            </div>
+
+
+        </div>
+
+        <div class="footer4">
+            <h2 style="padding-bottom: 60px;">NEWSLETTER</h2>
+            <p>Far far away, behind the word mountains, far from the countries.</p>
+            <input type="email" name="email" placeholder="Enter your Email">
+            <button class="subscribe">Subscribe</button>
+        </div>
+
+
+    </footer>
+
+    <section class="copyright">
+        <copyright>
+            <p>Copyright &copy2024 All rights reserved | Developed by Nadeem Aslam</p>
+        </copyright>
+    </section>
+
+</body>
+
+</html>
