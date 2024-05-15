@@ -101,6 +101,11 @@ html {
     margin-right: 20px;
 }
 
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
 /* Styles for mobile menu toggle button */
 .menu-toggle {
     display: none;
@@ -288,9 +293,10 @@ html {
 .firstitem {
     display: flex;
     gap: 30px;
-    padding: 45px 50px 45px 27px;
-    color: #E52B34;
     border-bottom: dotted 2px #e1d3d3;
+    padding: 45px 20px 45px 27px;
+    color: #E52B34;
+
 }
 
 .firstitem:hover {
@@ -305,6 +311,7 @@ html {
 
 .border1 {
     border: dashed 1.5px #e1d3d3;
+    padding: 0px 10px;
 }
 
 .border1:hover {
@@ -582,6 +589,43 @@ html {
     color: white;
 }
 
+/* About US PAage CSS design start  */
+.hirachypages {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.hirachypages a {
+    text-decoration: none;
+    color: white;
+}
+
+.hirachypages a:hover {
+    color: rgb(190, 126, 126);
+}
+
+.aboutsection2 {
+    margin-top: 0px !important;
+}
+
+.aboutsection3 {
+    background: url("Assets/restu2.jpg") center center /cover fixed;
+    opacity: 0.9;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+    padding: 180px 0px 90px 0px;
+    font-weight: 900;
+    font-size: larger;
+}
+
+.aboutsectio4 {
+    padding: 50px 0px !important;
+}
+
+/* About us page css design end  */
 
 
 
