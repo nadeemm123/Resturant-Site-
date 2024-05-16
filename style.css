@@ -628,7 +628,33 @@ html {
 /* About us page css design end  */
 
 
+/* Menu PAge css design start */
 
+.firstrow,
+.secondrow {
+    display: flex;
+    gap: 60px;
+}
+
+.menuinput {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.mnusubmit {
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.booktablemenu {
+    padding: 11px 30px;
+    background-color: #E52B34;
+    border: 1px solid white;
+    color: white;
+    margin-top: 40px;
+}
+
+/* Menue page css design end here */
 
 
 
