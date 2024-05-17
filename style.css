@@ -773,6 +773,12 @@ html {
         margin: 10px 20px;
     }
 
+    .firstitem {
+        gap: 20px;
+        padding: 45px 10px 45px 10px;
+
+    }
+
     .blog-details {
         padding: 10px 30px;
     }
