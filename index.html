@@ -20,20 +20,11 @@
 
     <link rel="stylesheet" href="style.css">
 
-    <script>
-        window.addEventListener('scroll', function () {
-            var navbar = document.querySelector('.stickyheader');
-            if (window.scrollY > 0) {
-                navbar.style.display = 'block';
-            } else {
-                navbar.style.display = 'none';
-            }
-        });
 
-    </script>
 </head>
 
 <body>
+
     <section class="stickyheader">
         <nav class="navbar stickydesign ">
             <div class="leftnav">
@@ -41,7 +32,7 @@
             </div>
 
             <div class="rightnav">
-                <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+                <!-- <div class="menu-toggle" id="menu-toggle">&#9776;</div> -->
                 <ul class="nav-links">
                     <li><a>Home</a></li>
                     <li><a href="About.html">About</a></li>
@@ -52,6 +43,8 @@
                     <li><a>Contact</a></li>
                 </ul>
             </div>
+
+
         </nav>
     </section>
 
@@ -74,8 +67,7 @@
             </div>
 
             <div class="rightnav">
-                <div class="menu-toggle" id="menu-toggle">&#9776;</div>
-                <ul class="nav-links">
+                <ul class="nav-links" id="myTopnav">
                     <li><a>Home</a></li>
                     <li><a href="About.html">About</a></li>
                     <li><a href="chef.html">Chef</a></li>
@@ -83,9 +75,14 @@
                     <li><a>Presention</a></li>
                     <li><a>Blog</a></li>
                     <li><a>Contact</a></li>
+                    <li> <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars"></i>
+                        </a></li>
                 </ul>
             </div>
+
         </nav>
+
 
 
 
@@ -763,6 +760,31 @@
             <p>Copyright &copy2024 All rights reserved | Developed by <i class="fa fa-heart"></i> Nadeem Aslam</p>
         </copyright>
     </section>
+
+
+
+    <script>
+        window.addEventListener('scroll', function () {
+            var navbar = document.querySelector('.stickyheader');
+            if (window.scrollY > 0) {
+                navbar.style.display = 'block';
+            } else {
+                navbar.style.display = 'none';
+            }
+        });
+
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "nav-links") {
+                x.className += " responsive";
+            } else {
+                x.className = "nav-links";
+            }
+        }
+
+    </script>
 </body>
+
+
 
 </html>

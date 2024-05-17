@@ -43,6 +43,8 @@ html {
     align-items: center;
 }
 
+
+
 .stickyheader {
     display: none;
     /* Initially hidden */
@@ -79,6 +81,47 @@ html {
     line-height: 20px;
 }
 
+.rightnav .nav-links .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .nav-links li a {
+        display: none;
+    }
+
+    .rightnav .nav-links .icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .rightnav .nav-links.responsive {
+        position: relative;
+        display: block;
+    }
+
+    .rightnav .nav-links.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .rightnav .nav-links .icon {
+        float: right;
+        display: block;
+    }
+
+    .nav-links.responsive li a {
+        float: none;
+        display: block;
+        flex-direction: column;
+        text-align: left;
+        padding-right: 20px;
+    }
+}
+
 .rightnav ul li a:hover {
     color: #E52B34;
 }
@@ -106,31 +149,7 @@ html {
     color: white;
 }
 
-/* Styles for mobile menu toggle button */
-.menu-toggle {
-    display: none;
-    /* Hide button by default */
-    cursor: pointer;
-}
 
-/* Media query for mobile devices */
-@media screen and (max-width: 768px) {
-    .nav-links {
-        display: none;
-        /* Hide navigation links */
-        flex-direction: column;
-        /* Stack navigation links vertically */
-        text-align: center;
-        /* Center align the links */
-        margin-top: 10px;
-        /* Add margin at the top */
-    }
-
-    .menu-toggle {
-        display: block;
-        /* Display button for mobile */
-    }
-}
 
 
 .hero {
