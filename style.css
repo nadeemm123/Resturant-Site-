@@ -239,6 +239,12 @@ html {
     margin-top: -25px;
 }
 
+.stylefont {
+    font-size: 30px;
+    font-family: Dancing script, cursive;
+    line-height: 0px;
+}
+
 .section3 {
     background: url("/Assets/booking.jpg");
     background-repeat: no-repeat;
@@ -736,6 +742,35 @@ html {
     .section3 h2,
     .main {
         font-size: 80%;
+    }
+
+    .hero {
+        padding: 40px 0px 50px;
+    }
+
+    .contactform {
+        padding: 20px 20px 16px 40px;
+    }
+
+    .leftabout {
+        padding: 0px 20px 40px 30px;
+    }
+
+    .leftabout p {
+        padding: 0px 20px 20px 0px;
+        color: black;
+    }
+
+    .leftabout h2 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 30px;
+
+    }
+
+    .border1,
+    .container {
+        margin: 10px 20px;
     }
 
     .blog-details {
